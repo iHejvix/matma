@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Metoda bisekcji</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<nav>
+    Znajdowanie pierwsiastów wielomianu metodą biesekcji
+</nav>
+<div id="container">
+    <label>
+        Zapisz wielomian. Pamiętaj o wszystkich współczynnikach (w tym 0 i 1):
+        <input type="text" id="value" placeholder="1x^2+0x+0">
+    </label> <br><br>
+    <label>
+        Podaj stopień wielomianu:
+        <input type="number" id = "stopien">
+    </label> <br><br>
+    <label>
+        <p>Dokładność:</p>
+        <input type="number" id="st">
+    </label><br><br>
+    <p>Podaj zakres:</p>
+    <label>
+        Od:
+        <input type="number" id="z">
+    </label>
+    <label>
+        Do:
+        <input type="number" id="do">
+    </label><br><br>
+    <input type="button" onclick="result()" value="Oblicz">
+    <div id="result"></div>
+</div>
+</body>
+</html>

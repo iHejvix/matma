@@ -1,0 +1,44 @@
+body {
+    background-color: #292929;
+    color: white;
+    font-family: Arial, serif;
+    margin: 0;
+    font-size: 15px;
+
+}
+input {
+    background-color: #292929;
+    color: white;
+    margin: 0 20px;
+}
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav {
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #c34f4f;
+    text-align: center;
+    border-top: 1px solid #751b1b;
+    border-bottom: 1px solid #751b1b;
+    margin-bottom: 30px;
+}
+
+.entry_input {
+    width: 60px;
+}
+
+.entry_value {
+    margin: 0 10px 0 5px;
+    display: inline;
+}
+
+#content {
+    margin: 10px 0 10px 0;
+}
